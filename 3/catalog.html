@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <base href="https://htmlacademy-htmlcss.github.io/1987763-sedona-33/3/">
+</head>
+  <body>
+    <header>
+      <a class="logo" ><img src="#" alt="Седона"></a>
+      <nav>
+        <a href="#">Главная</a>
+        <a href="#">О Седоне</a>
+        <a href="#">Гостиницы</a>
+      </nav>
+      <nav>
+        <a href="#">Найти</a>
+        <a href="#">Избранное</a>
+        <a href="#"> Хочу сюда</a>
+      </nav>
+    </header>
+    <header>
+        <h1>Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главаная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+          </li>
+        </ul>
+        <form>
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li>   
+                <label><input type="checkbox" checked>Бассейн</label>
+              </li>
+              <li>
+                <label><input type="checkbox" checked>Парковка</label>
+              </li>
+              <li>
+                <label><input type="checkbox">Wi-Fi</label>
+              </li>
+            </ul>    
+          </fieldset>
+          <fieldset>      
+              <legend>Тип жилья:</legend>
+               <ul>
+                 <li>   
+                  <label><input type="radio" checked>Гостиница</label>
+                 </li>
+                 <li>  
+                  <label><input type="radio">Мотель</label>
+                 </li>
+                 <li>  
+                  <label><input type="radio">Апартаменты</label>
+                 </li>
+                </ul> 
+          </fieldset>
+              <p>Стоимость, ₽:</p>
+              <label><input type="number"></label>
+              <label><input type="number"></label>
+            <div>
+              <input  type="submit">
+              <input  type="reset">
+            </div>
+        </form>
+      </header>       
+    <main>
+      <h2>Найдено гостиниц: 38</h2>
+      <select>
+        <option>Сначала дешёвые</option>
+      </select>
+      <section>
+        <img src="images/hotel.jpg"
+         alt="Отель расапложеный на скале среди деревьев">
+        <h3>Amara Resort & Spa</h3>
+        <p>Гостиница</p>
+        <p>От 4000 ₽</p>
+        <a class="button" href="#">подробнее</a>
+        <a class="button" href="#">В избранное</a>
+        <p>Рейтинг: 8,5</p>
+      </section>
+      <section>
+        <img src="images/hotel.jpg"
+         alt="Отель расапложеный в пустыне среди деревьев">
+        <h3>Desert Quail Inn</h3>
+        <p>Гостиница</p>
+        <p>От 3000 ₽</p>
+        <a class="button" href="#">подробнее</a>
+        <a class="button" href="#">В избранное</a>
+        <p>Рейтинг: 8,9</p>
+      </section>
+      <section>
+        <img src="images/hotel.jpg"
+         alt="Отель расапложеный недалеко от высокой скалы">
+        <h3>Villas at Poco Diablo</h3>
+        <p>Гостиница</p>
+        <p>От 2000 ₽</p>
+        <a class="button" href="#">подробнее</a>
+        <a class="button" href="#">В избранное</a>
+        <p>Рейтинг: 9,2 </p>
+      </section>
+      <section>
+        <img src="images/hotel.jpg"
+         alt="Отель расапложеный в лесистой местности среди деревьев">
+        <h3>GreenTree Inn</h3>
+        <p>Гостиница</p>
+        <p>От 3000 ₽</p>
+        <a class="button" href="#">подробнее</a>
+        <a class="button" href="#">В избранное</a>
+        <p>Рейтинг: 9,2 </p>
+      </section>
+        <a href="#">Загрузить ещё</a>
+      <nav>
+        <a>1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">...</a>
+        <a href="">10</a>
+        <p>Гостиниц на странице:</p>
+        <select><option>4</option></select>  
+      </nav>
+    </main>    
+      <h3>Подпишитесь на рассылку</h3>
+      <p>
+       Только полезная информация и никакого спама, честное бойскаутское!
+      </p>
+      <section class="footer-contacts"><h2>контакты</h2></section>
+    <footer>
+         <img class="footer-contacts-logo" src="img" alt="Логотип.HTML Academy">
+         <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 812 8121212</a>
+      <section class="footer-social">  
+         <h6>соц сети</h6>
+       <ul>
+         <li>
+           <a class="button" href="#">
+             <span class="visually-hidden">Твиттер</span>
+           </a>
+         </li>
+         <li> 
+           <a class="button" href="#">
+             <span class="visually-hidden">Facebook</span>
+           </a>
+         </li> 
+         <li> 
+           <a class="button" href="#">
+             <span class="visually-hidden">Youtube</span>
+           </a>
+         </li>
+       </ul>
+      </section>
+    </footer>
+  </body>
+</html>  
